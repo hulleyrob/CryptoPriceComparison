@@ -15,3 +15,5 @@ Edit the CRYPTOS list for the coins your interested in (use https://finance.yaho
 Once its finished getting the data it will open your default browser with an interactive graph.
 
 Enjoy.
+
+(The difference to the one in the link is this script normalises the data from min to max closing price within a 0-100% scale)
