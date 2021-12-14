@@ -2,7 +2,7 @@
 
 Inspired by what i saw at https://itnext.io/create-beautiful-cryptocurrency-graphs-in-python-bec7b9cbc21a
 
-I create this to do a relative comparison between coins that im interested in.
+I created this to do a relative comparison between coins that im interested in.
 
 Maybe this can be useful for someone else looking to do the same.
 
