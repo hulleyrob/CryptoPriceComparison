@@ -7,9 +7,13 @@ I created this to do a relative comparison between coins that im interested in.
 Maybe this can be useful for someone else looking to do the same.
 
 To use you will need to:
+
 pip install pandas
+
 pip install pandas_datareader
+
 pip install plotly
+
 pip install sklearn
 
 Edit the CRYPTOS list for the coins your interested in (use https://finance.yahoo.com/cryptocurrencies/ for the correct names less the currency)
