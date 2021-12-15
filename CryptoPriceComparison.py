@@ -16,7 +16,6 @@ def getData(cryptocurrency):
     start = pd.to_datetime(last_year_date)
     end = pd.to_datetime(current_date)
     data = pdr.get_data_yahoo(f'{cryptocurrency}-{CURRENCY}', start, end)
-    print(f"{data=}")
     data = pd.DataFrame(MaxAbsScaler().fit_transform(data), columns=data.columns)
     return data
 crypto_data = {crypto:getData(crypto) for crypto in CRYPTOS}
