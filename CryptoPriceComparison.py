@@ -7,7 +7,6 @@ import pandas_datareader as pdr
 import plotly.graph_objects as go
 
 CRYPTOS = ['BTC', 'ETH', 'ADA', 'ANKR', 'DOT1','SOL1','HEX','BNB','DOGE','LUNA1','SHIB','XLM','LINK']
-# CRYPTOS = ['BTC', 'ETH', 'ADA']
 CURRENCY = 'USD'
 
 def getData(cryptocurrency):
